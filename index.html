@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Add the API integration script -->
+        <script src="website-api.js"></script>
+        <script src="services.js" defer></script>
+        <title>Viborg Haveservice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header column" id="viborg-haveservice">
+        <nav class="navbar row">
+            <h2>
+                <a href="#viborg-haveservice">Viborg Haveservice</a>
+            </h2>
+            <ul>
+                <li><a href="#om-os">OM OS</a></li>
+                <li><a href="#ydelser">YDELSER</a></li>
+                <li><a href="#galleri">GALLERI</a></li>
+                <li><a href="#det-siger-kunderne">DET SIGER KUNDERNE</a></li>
+                <li><a href="#KONTAKT">KONTAKT</a></li>
+            </ul>
+        </nav>
+        <div class="kvalitet">
+            <h1 id="toast-title">KVALITET OG SERVICE</h1>
+            <p id="toast-content">
+                Hos Viborg Haveservice bliver kvalitet og service sat i højsædet.<br>
+                Vi sætter stor ære og pris på at tilbyder professionel haveservice til både private og erhverv
+            </p>
+            <input class="green-btn" type="button" onclick="location.href='#'" value="LÆS MERE"/>
+            <input class="green-btn" type="button" onclick="location.href='admin.html'" value="ADMIN PANEL"/>
+        </div>
+    </div>
+    <div class="om-os row" id="om-os">
+        <div class="ydelser-beskrivning column">
+            <h2 id="aboutus-title">Velkommen til<em> Viborg <br>Haveservice</em></h2>
+            <hr>
+            <p id="aboutus-content">Hos Viborg Haveservice er vi en virksomhed, som varetager en bred skare af forskellige arbejdsopgaver inden for havearbejde og kan blandt andet hjælpe til med:</p>
+            <ul>
+                <li>◦ Hækklipning</li>
+                <li>◦ Græslåning</li>
+                <li>◦ Træfældning</li>
+                <li>◦ Belægning</li>
+            </ul>
+            <p>Kort og godt er vi de rette at kontakte ved enhver type af opgave inden for haveservice, og med mange års erfaring i faget, kan du trygt lade dit valg falde på netop os.</p>
+            <input class="green-btn" type="button" onclick="location.href='#ydelser'" value="SE ALLE YDELSER"/>
+        </div>
+        <div class="ydelser-showcase row">
+            <div class="ydelser-showcase-1">
+                <img id="service-1" src="./img/omos-1.jpg" alt="Service 1">
+                <h2 id="service-title-1">Anlægsgardneri</h2>
+                <p id="service-content-1">Den fulde pakke for virksomheder, der ikke har tid til at passe sine udendørsarealer</p>
+            </div>
+            <div class="ydelser-showcase-2">
+                <img id="service-2" src="./img/omos-2.jpg" alt="Service 2">
+                <h2 id="service-title-2">Plænepleje</h2>
+                <p id="service-content-2">For den private som ønsker en plan og flot græsplæne.</p>
+            </div>
+        </div>
+    </div>
+    <div class="ydelser column" id="ydelser">
+        <div class="ydelser-text column">
+            <h2>Vores ydelser</h2>
+            <hr>
+            <p>Herunder en oversigt over alle vores services.<br>
+                Hvis du måtte have spørgsmål, er du velkommen til at kontakte os.
+            </p>
+        </div>
+        <div>
+            <ul class="ydelse-container row">
+                <li class="ydelser-list column">
+                    <img src="./img/ydelser/ydelser-1.jpg" alt="">
+                    <h2>Plænepleje</h2>
+                    <p>Vi påtager os at passe plænen for dig, og håndterer alt såning, gødning, kalkning og klipning.</p>
+                </li>
+                <li class="ydelser-list column">
+                    <img src="./img/ydelser/ydelser-2.jpg" alt="">
+                    <h2>Anlægsgardneri</h2>
+                    <p>Vi håndterer alt udendørs areal for din virksomhed, såsom flisepleje, behandling af bede, plæner og snerydning om vinteren.</p>
+                </li>
+                <li class="ydelser-list column">
+                    <img src="./img/ydelser/ydelser-3.jpg" alt="">
+                    <h2>Træpleje</h2>
+                    <p>Vi sørger for at dine træer bliver behandlet og beskåret hele året rundt.</p>
+                </li>
+                <li class="ydelser-list column">
+                    <img src="./img/ydelser/ydelser-4.jpg" alt="">
+                    <h2>Forår og efterårsrengøring</h2>
+                    <p>Vi gør haven klar til sommerbrug, og fjerner løvfald for dig om efteråret.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

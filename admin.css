@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 3% auto;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    height: 80%;
+}
+
+header {
+    background-image: linear-gradient(to right, #2e3f4f , #496441);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    padding: 3%;
+}
+
+header h1 {
+    margin-bottom: 2%;
+}
+
+.inputs {
+    width: 100%;
+    margin: 2% auto 0 auto;
+}
+
+.input-fields {
+    width: 100%;
+    height: 10%;
+}
+
+.input-fields ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 2%;
+}
+
+.input-fields li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.input-fields li input{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    display: none;
+  }
+  
+.img-file-upload {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: white;
+    width: 100%;
+}
+
+.container {
+    background-color: red;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.grey {
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    padding: 10px;
+    width: 25%;
+    margin: 2% auto 0 auto;
+    border: 1px solid black;
+}
+
+.input-fields li {
+    margin-bottom: 15px;
+}
+
+#submit {
+    margin-top: 20%;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+#images {
+    width: 67%;
+}
+
+.output {
+    position: absolute;
+    bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 97.5%;
+}
+
+.output ul li button{
+    padding: 5px;
+    padding-right: 80%;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+} */

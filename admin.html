@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <script src="admin.js" type="module" defer></script>
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="container column">
+        <header>
+            <h1>Viborg Haveservice Admin panel</h1>
+            <p>Administrer dit website indhold nemt og hurtigt</p>
+        </header>
+        <div class="inputs column">
+            <div class="input-fields">
+                <ul class="row">
+                    <li><input type="text" id="service-title" name="title" placeholder="Placeholder"></li>
+                    <li><input type="text" id="service-desc" name="desc"></li>
+                    <li>
+                        <label for="service-imgFile" class="img-file-upload">Image Upload</label>
+                        <input type="file" id="service-imgFile" name="imgFile">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </div>
+        <div class="output column">
+            <ul id="service-output">
+                <li><button type="button" id="title">output1</button></li>
+                <li><button type="button" id="title">output2</button></li>
+                <li><button type="button" id="title">output3</button></li>
+                <li><button type="button" id="title">output4</button></li>
+                <li><button type="button" id="title">output5</button></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
