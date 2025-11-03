@@ -31,17 +31,27 @@ function displayServices() {
         const serviceLi = document.createElement('li');
         const button = document.createElement('button');
         const img = document.createElement('img');
+        const titleText = document.createElement('h1');
+        const descText = document.createElement('p');
+        const serviceDiv = document.createElement('div');
+
+        titleText.textContent = service.title;
+        descText.textContent = service.description;
         img.src = service.image;
         img.alt = service.title;
 
         img.id = "admin-service-img";
         button.id = "admin-service-btn";
+        serviceDiv.id = "admin-service-div";
+        titleText.id = "admin-service-title";
+        descText.id = "admin-service-desc";
 
-        button.textContent = `Title:${service.title}
-        \n Description${service.description}`;
-        button.appendChild(img);
-        
-        serviceLi.appendChild(button); // Thus this work?
+
+        serviceDiv.appendChild(img);
+        serviceDiv.appendChild(button);
+        serviceDiv.appendChild(titleText);
+        serviceDiv.appendChild(descText);
+        serviceLi.appendChild(serviceDiv);
         serviceOutput.appendChild(serviceLi);
     });
 }
