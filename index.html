@@ -6,8 +6,12 @@
         <!-- Add the API integration script -->
         <script src="website-api.js"></script>
         <script src="services.js" defer></script>
+        <script src="https://kit.fontawesome.com/83542e4ae4.js" crossorigin="anonymous"></script>
         <title>Viborg Haveservice</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="header column" id="viborg-haveservice">
@@ -93,7 +97,7 @@
             </ul>
         </div>
     </div>
-    <div class="gallery">
+    <div class="gallery" id="galleri">
         <div class="gallery-text column">
             <h2>Galleri</h2>
             <hr>
@@ -111,6 +115,71 @@
         <div class="gallery-imgs">
 
         </div>
+    </div>
+    <div class="kundeudtalelser column" id="det-siger-kunderne">
+        <div class="kunde-text column">
+            <h2>Kundeudtalelser</h2>
+            <hr>
+            <p>
+                "Jeg skulle have lavet min have, efter at have ombygget mit hus, og Viborg Planteservice klarede hele arbejdet, mens jeg var på golfbanen."
+            </p>
+            <p>-John Bo Martens, Viborg</p>
+        </div>
+        <div class="kundeudtalelser-btn">
+            <ul class="row">
+                <li><button></button></li>
+                <li><button></button></li>
+                <li><button></button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="kontakt column  " id="KONTAKT">
+        <div class="kontakt-text column">
+            <h2>Kontakt os</h2>
+            <hr>
+            <p>
+                Du kan kontakte os med informationerne nedenfor, eller skrive en besked til os med kontaktformularen.
+            </p>
+        </div>
+        <div class="kontakt-info">
+            <ul class="row">
+                <li>
+                    <h3>ADDRESSE</h3>
+                    <hr>
+                    <p>Odshøjvej 1G</p>
+                    <p>8800 Viborg</p>
+                </li>
+                <li>
+                    <h3>ÅBNINGSTID</h3>
+                    <hr>
+                    <p>Mandag-Lørdag: 07:00 - 18:00</p>
+                    <p>Søndag: LUKKET</p>
+                </li>
+                <li>
+                    <h3>KONTAKT INFORMATION</h3>
+                    <hr>
+                    <p>Telefon: +45 12 34 56 78</p>
+                    <p>Email: info@viborghaveservice.org</p>
+                </li>
+            </ul>
+        </div>
+        <div class="kontakt-form column">
+            <h2>SEND OS EN BESKED</h2>
+            <form action="" class="column">
+               <div class="input-fields row">
+                    <input type="text" placeholder="Navn" id="name">
+                    <input type="text" placeholder="Email" id="email">
+               </div>
+                <textarea name="" id="besked" cols="30" rows="5" placeholder="Besked"></textarea>
+                <input type="submit" value="SEND BESKED" id="submit">
+            </form>
+        </div>
+    </div>
+    <div class="footer row">
+        <ul class="row">
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #6aaf09;"></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter" style="color: #6aaf09;"></i></a></li>
+        </ul>
     </div>
 </body>
 </html>
